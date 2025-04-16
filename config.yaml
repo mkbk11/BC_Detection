@@ -1,0 +1,38 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    rbriggs:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0
+      first_name: Rebecca
+      last_name: Briggs
+      logged_in: false
+      password: $2b$12$ZxjrB2zQvzC/oEoqFWoRKOd/YGOtSWbmjiVQIC5smGPt3/Y3U/uCq
+      roles:
+      - viewer
+    whj:
+      email: 1147993479@gmail.com
+      failed_login_attempts: 10
+      first_name: Wang
+      last_name: Hongjie
+      logged_in: false
+      password: $2b$12$TErN1aCkfCHF/Rxu.1ZvBuqnQsvs1MLV3/W/SmfvmlfqI9oxoDIWe
+      roles:
+      - admin
+      - editor
+      - vieweroauth2:
+  google:
+    client_id: null
+    client_secret: null
+    redirect_uri: null
+  microsoft:
+    client_id: null
+    client_secret: null
+    redirect_uri: null
+    tenant_id: null
+pre-authorized:
+  emails:
+  - melsby@gmail.com

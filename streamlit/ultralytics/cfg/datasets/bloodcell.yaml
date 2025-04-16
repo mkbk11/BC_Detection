@@ -1,0 +1,24 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Blood Cell dataset configuration
+# Documentation: https://docs.ultralytics.com/datasets/detect/
+# Example usage: yolo train data=bloodcell.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── bloodcell  ← downloads here
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/bloodcell # dataset root dir
+train: train/images # train images (relative to 'path')
+val: valid/images # val images (relative to 'path')
+test: # test images (relative to 'path')
+
+# Classes
+names:
+  0: rbc # 红细胞
+  1: wbc # 白细胞
+  2: platelets # 血小板
+  3: abnormal # 异常细胞
+
+# Download script/URL (optional)
+# download: https://github.com/ultralytics/assets/releases/download/v0.0.0/bloodcell.zip
